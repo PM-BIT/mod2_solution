@@ -8,36 +8,6 @@ h1{
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     color:green;
 }
-#he1{
-	float:right;
-	border-width:1px;
-	border-style:solid black;
-	box-sizing:border-box;
-	margin-left:3.125%;
-	
-	
-	color:white;
-	font-style:bold, italic;
-	font-size:26px;
-}
-#he2{
-	float:right;
-	border:1px;
-	border-color:black;
-	color:white;
-	font-style:bold, italic;
-	font-size:26px;
-}
-#he3{
-	float:right;
-	box-sizing:border-box;
-	border:1px;
-	
-	color:white;
-	font-style:bold, italic;
-	font-size:26px;
-}
-
 
 p{
 	height:275px;
@@ -58,9 +28,10 @@ p{
 	border:1px solid black ;
 	float:left;
 	height:275px;
-	padding:10px;
+	
 	margin-left:6.25%;
-	margin-right:3.125%
+	margin-right:3.125%;
+	position:relative;
 	}
 #p3{
 	
@@ -70,7 +41,7 @@ p{
 	border:1px solid black ;
 	float:right;
 	min-height:275px;
-	padding:10px;
+	
 	margin-left:3.125%;
 	margin-right:3.125%;
 	
@@ -83,10 +54,65 @@ p{
 		border:1px solid black ;
 		float:right;
 		min-height:275px;
-		padding:10px;
+		
 		margin-left:3.125%;
 		margin-right:6.25%;
 	}
+	
+	#he1{
+	float:right;
+	box-sizing:content-box;
+	border-color:black;
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+	
+	
+	
+	
+	
+	
+	color:black;
+	font-style:bold, italic;
+	font-size:24px;
+}
+
+#he2{
+	float:right;
+	
+	border-color:black;
+	color:black;
+	font-style:bold, italic;
+	font-size:26px;
+	
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+	
+}
+#he3{
+	float:right;
+	box-sizing:border-box;
+	border:1px;
+	
+	color:white;
+	font-style:bold, italic;
+	font-size:24px;
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+}
+
+
 
 
 	@media (min-width:768px) and (max-width:991px)
@@ -98,7 +124,7 @@ p{
 	border:1px solid black ;
 	float:left;
 	height:275px;
-	padding:10px;
+	
 	margin-right:5%;
 	margin-left:10%;
 	}
@@ -108,7 +134,7 @@ p{
 		width:35%;
 		float:right;
 		min-height:275px;
-		padding:10px;
+		
 		margin-left:5%;
 		margin-right:10%;
 		
@@ -120,13 +146,72 @@ p{
 	width:80%;
 	float:right;
 	min-height:275px;
-	padding:10px;
+	
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:2.5%;
 	
 	
-	}}
+	}
+	
+	#he1{
+	float:right;
+	box-sizing:content-box;
+	border-color:black;
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+	
+	
+	
+	
+	
+	
+	color:black;
+	font-style:bold, italic;
+	font-size:24px;
+}
+
+#he2{
+	float:right;
+	
+	border-color:black;
+	color:black;
+	font-style:bold, italic;
+	font-size:26px;
+	
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+	
+}
+#he3{
+	float:right;
+	box-sizing:border-box;
+	border:1px;
+	
+	color:white;
+	font-style:bold, italic;
+	font-size:24px;
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+}
+
+
+	
+	
+	
+	}
 	@media(max-width:767px){
 		
 		
@@ -137,7 +222,7 @@ p{
 	border:1px solid black ;
 	float:left;
 	height:275px;
-	padding:10px;
+	
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:2.5%;
@@ -148,7 +233,7 @@ p{
 		width:80%;
 		float:right;
 		min-height:275px;
-		padding:10px;
+		
 		margin-left:10%;
 	    margin-right:10%;
 		Margin-top:2.5%;
@@ -161,13 +246,68 @@ p{
 	width:80%;
 	float:right;
 	min-height:275px;
-	padding:10px;
+	
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:2.5%;
 	
 	
 	}
+	
+	#he1{
+	float:right;
+	box-sizing:content-box;
+	border-color:black;
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+	
+	
+	
+	
+	
+	
+	color:black;
+	font-style:bold, italic;
+	font-size:24px;
+}
+
+#he2{
+	float:right;
+	
+	border-color:black;
+	color:black;
+	font-style:bold, italic;
+	font-size:26px;
+	
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+	
+}
+#he3{
+	float:right;
+	box-sizing:border-box;
+	border:1px;
+	border:1px solid black;
+	color:white;
+	font-style:bold, italic;
+	font-size:24px;
+	 background-color:red;
+	 margin-right:0px;
+	 border-size:thin;
+	text-align:center;
+	
+	padding:0px;
+}
+
+
 		
 		
 		
