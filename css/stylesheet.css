@@ -10,33 +10,38 @@ h1{
 }
 #he1{
 	float:right;
-	border:1px;
+	border-width:1px;
+	border-style:solid black;
+	box-sizing:border-box;
+	margin-left:3.125%;
+	
 	
 	color:white;
 	font-style:bold, italic;
-	font-size:26px
+	font-size:26px;
 }
 #he2{
 	float:right;
 	border:1px;
-	
+	border-color:black;
 	color:white;
 	font-style:bold, italic;
-	font-size:26px
+	font-size:26px;
 }
 #he3{
 	float:right;
+	box-sizing:border-box;
 	border:1px;
 	
 	color:white;
 	font-style:bold, italic;
-	font-size:26px
+	font-size:26px;
 }
 
 
 p{
 	height:275px;
-	width:33.3%;
+	width:25%;
 	top-margin:10px;
 	position:auto;
 	
@@ -48,32 +53,39 @@ p{
 
 #p1{
 	
-	width:33.3%;
+	width:25%;
 	background-color:pink;
 	border:1px solid black ;
 	float:left;
 	height:275px;
 	padding:10px;
+	margin-left:6.25%;
+	margin-right:3.125%
 	}
 #p3{
 	
 	
 	background-color:#87ceeb;
-	width:33.3%;
+	width:25%;
+	border:1px solid black ;
 	float:right;
 	min-height:275px;
 	padding:10px;
+	margin-left:3.125%;
+	margin-right:3.125%;
 	
 	
 	}
 #p2
 	{
 		background-color:#90EE90;
-		width:33.3%;
+		width:25%;
+		border:1px solid black ;
 		float:right;
 		min-height:275px;
 		padding:10px;
-		
+		margin-left:3.125%;
+		margin-right:6.25%;
 	}
 
 
@@ -81,30 +93,37 @@ p{
 	{
 		#p1{
 	
-	width:50%;
+	width:35%;
 	background-color:pink;
 	border:1px solid black ;
 	float:left;
 	height:275px;
 	padding:10px;
+	margin-right:5%;
+	margin-left:10%;
 	}
 	#p2
 	{
 		background-color:#90EE90;
-		width:50%;
+		width:35%;
 		float:right;
 		min-height:275px;
 		padding:10px;
+		margin-left:5%;
+		margin-right:10%;
 		
 	}
 	#p3{
 	
 	
 	background-color:#87ceeb;
-	width:100%;
+	width:80%;
 	float:right;
 	min-height:275px;
 	padding:10px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:2.5%;
 	
 	
 	}}
@@ -113,30 +132,39 @@ p{
 		
 		#p1{
 	
-	width:98%;
+	width:80%;
 	background-color:pink;
 	border:1px solid black ;
 	float:left;
 	height:275px;
 	padding:10px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:2.5%;
 	}
 	#p2
 	{
 		background-color:#90EE90;
-		width:98%;
+		width:80%;
 		float:right;
 		min-height:275px;
 		padding:10px;
+		margin-left:10%;
+	    margin-right:10%;
+		Margin-top:2.5%;
 		
 	}
 	#p3{
 	
 	
 	background-color:#87ceeb;
-	width:98%;
+	width:80%;
 	float:right;
 	min-height:275px;
 	padding:10px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:2.5%;
 	
 	
 	}
